@@ -8,11 +8,11 @@ Olist is a Brazilian e-commerce marketplace connecting sellers and customers acr
 
 ## Tech Stack
 
-- **SQL (PostgreSQL)** — Schema design, data modeling (star schema), data validation, advanced analytical queries (window functions, CTEs, cohort analysis)
-- **Python (Pandas)** — Exploratory data analysis, data profiling, trend detection, correlation analysis, visualization (Matplotlib, Seaborn)
-- **PySpark** — Large-scale data transformation, aggregation pipelines, window functions, KPI computation
-- **Streamlit + Plotly** — Interactive KPI dashboard with revenue tracking, category performance, delivery analytics, customer segmentation, payment analysis
-- **PostgreSQL** — Staging schema, analytical star schema with fact and dimension tables, indexed for query performance
+- **SQL (PostgreSQL):** Schema design, data modeling (star schema), data validation, advanced analytical queries (window functions, CTEs, cohort analysis)
+- **Python (Pandas):** Exploratory data analysis, data profiling, trend detection, correlation analysis, visualization (Matplotlib, Seaborn)
+- **PySpark:** Large-scale data transformation, aggregation pipelines, window functions, KPI computation
+- **Streamlit + Plotly:** Interactive KPI dashboard with revenue tracking, category performance, delivery analytics, customer segmentation, payment analysis
+- **PostgreSQL:** Staging schema, analytical star schema with fact and dimension tables, indexed for query performance
 
 ## Dataset
 
@@ -58,7 +58,7 @@ Source: [Olist Brazilian E-Commerce Dataset (Kaggle)](https://www.kaggle.com/dat
 - Seller performance ranking by revenue quartile (NTILE, RANK)
 - Category performance with revenue share (SUM OVER)
 - Customer cohort analysis with repeat purchase rates (CTEs)
-- Delivery route performance — late delivery rates by seller-customer state pairs
+- Delivery route performance, late delivery rates by seller-customer state pairs
 - Payment method breakdown with installment patterns
 - 7-day and 30-day moving averages for revenue and order volume
 - State-level KPI dashboard (revenue per customer, satisfaction, delivery speed)
@@ -96,7 +96,7 @@ Source: [Olist Brazilian E-Commerce Dataset (Kaggle)](https://www.kaggle.com/dat
 
 - Revenue grew consistently MoM through mid-2018
 - Late deliveries reduce review scores by ~1.7 points (4.2 vs 2.5 avg)
-- Repeat purchase rate is below 3% — biggest growth opportunity
+- Repeat purchase rate is below 3%, biggest growth opportunity
 - SP state accounts for 40%+ of orders with fastest delivery times
 - Credit cards dominate at 74% of transactions, averaging 3-4 installments
 - Cross-state shipments to northern regions show 2-3x longer delivery times
