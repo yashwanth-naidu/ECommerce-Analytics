@@ -1,4 +1,4 @@
-# Olist E-Commerce Analytics
+# E-Commerce Analytics
 
 End-to-end data analytics project built on the Olist Brazilian E-Commerce dataset (100K+ orders), covering the complete workflow from raw data ingestion through analytical modeling, SQL insights, PySpark transformations, exploratory data analysis, and interactive dashboards.
 
