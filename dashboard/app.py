@@ -4,7 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import numpy as np
 
-st.set_page_config(page_title="Olist E-Commerce Analytics", layout="wide")
+st.set_page_config(page_title="E-Commerce Analytics", layout="wide")
 
 st.markdown("""
 <style>
@@ -48,7 +48,7 @@ def load_data():
 
 df, payments, reviews = load_data()
 
-st.title("Olist E-Commerce Analytics")
+st.title("E-Commerce Analytics")
 st.write("Analyzing 96K+ delivered orders from the Olist Brazilian e-commerce platform (2016-2018)")
 st.markdown("---")
 
