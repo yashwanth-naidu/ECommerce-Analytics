@@ -53,6 +53,18 @@ Source: [Olist Brazilian E-Commerce Dataset (Kaggle)](https://www.kaggle.com/dat
 
 ## Key Analyses
 
+## Dashboard Preview
+
+![Revenue Dashboard](dashboard_revenue.png)
+
+![Categories](dashboard_categories.png)
+
+![Delivery Analysis](dashboard_delivery.png)
+
+![Customer Analytics](dashboard_customers.png)
+
+![Payments](dashboard_payments.png)
+
 ### SQL Analytics
 - Monthly revenue trends with MoM growth (LAG, window functions)
 - Seller performance ranking by revenue quartile (NTILE, RANK)
